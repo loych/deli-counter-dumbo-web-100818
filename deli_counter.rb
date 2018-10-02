@@ -9,6 +9,7 @@ def line (katz_deli)
       counter +=1
     puts "The line is currently:#{nuarray.join(" ")}""
   end
+end
   
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
