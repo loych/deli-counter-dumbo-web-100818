@@ -5,7 +5,8 @@ def line (katz_deli)
     array =[]
     counter= 1
     katz_deli.each do |name|
-      array.push 
+      array.push ("#{counter}. #{name}")
+      counter +=1
     puts "The line is currently:"
   end
   
