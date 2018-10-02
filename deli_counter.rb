@@ -7,7 +7,7 @@ def line (katz_deli)
     katz_deli.each do |name|
       array.push ("#{counter}. #{name}")
       counter +=1
-    puts "The line is currently:"
+    puts "The line is currently:#{nuarray.join(" ")}""
   end
   
 def take_a_number(katz_deli, name)
