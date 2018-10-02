@@ -4,7 +4,7 @@ def line (katz_deli)
   else if katz_deli.length >= 1 
     array =[]
     counter= 1
-    katz_deli.each do 
+    katz_deli.each do |name|
     puts "The line is currently:"
   end
   
