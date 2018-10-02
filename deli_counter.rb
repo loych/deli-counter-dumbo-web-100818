@@ -23,5 +23,5 @@ def now_serving(katz_deli)
   end
     else puts "Currently serving #{katz_deli.shift}."
 end
-
+end
 puts now_serving(katz_deli)
