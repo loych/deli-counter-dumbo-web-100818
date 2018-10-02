@@ -7,7 +7,7 @@ if katz_deli.length >= 1
       counter +=1
     puts "The line is currently:#{nuarray.join(" ")}""
   end
-   if katz_deli.length==0 
+   e katz_deli.length==0 
     puts "The line is currently empty."
 end 
 
