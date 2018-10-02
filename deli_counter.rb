@@ -18,10 +18,10 @@ end
 
 
 def now_serving(katz_deli, name)
-  if katz_deli.length ==0 
-    puts "There is nobody waiting to be served!"
+  if katz_deli.length >=1 
+    puts "Currently serving #{katz_deli.first}"
   end
   else 
-    puts "Currently serving #{katz_deli.first}"
+    puts "There is nobody waiting to be served!"
 end 
 end
